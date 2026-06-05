@@ -1,0 +1,39 @@
+{
+    "name": "com.unitycoder.editors",
+    "displayName": "UnityCoder Editor Integration",
+    "description": "为 Unity 提供 Visual Studio Code 及其变体（Cursor、Antigravity、Trae、Trae CN、Kiro、Qoder、Lingma、Windsurf）的代码编辑器集成支持。添加对生成 csproj 文件以实现智能提示、自动发现安装等功能。",
+    "version": "1.0.3",
+    "unity": "2021.3",
+    "dependencies": {
+        "com.unity.test-framework": "1.1.33"
+    },
+    "relatedPackages": {
+        "com.unitycoder.editor.integration.tests": "1.0.0"
+    },
+    "keywords": [
+        "vscode",
+        "unity",
+        "editor",
+        "integration",
+        "cursor",
+        "antigravity",
+        "trae",
+        "kiro",
+        "qoder",
+        "lingma",
+        "windsurf",
+        "code editor"
+    ],
+    "_upm": {
+        "changelog": "Initial release:\n\n- Support for Visual Studio Code and popular variants (Cursor, Antigravity, Trae, Trae CN, Kiro, Qoder, Lingma, Windsurf)\n- Automatic discovery of editor installations\n- Project file generation (.csproj and .sln)\n- Manual path specification with automatic version detection\n- Excludes Visual Studio auto-discovery"
+    },
+    "upmCi": {
+        "footprint": "unitycoder_editor_integration_v1.0.0"
+    },
+    "documentationUrl": "https://gitcode.com/Mosaulse/UnityCoder",
+    "repository": {
+        "url": "https://gitcode.com/Mosaulse/UnityCoder.git",
+        "type": "git",
+        "revision": "main"
+    }
+}

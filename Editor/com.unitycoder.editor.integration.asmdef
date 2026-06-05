@@ -1,0 +1,19 @@
+{
+    "name": "com.unitycoder.editor.integration",
+    "rootNamespace": "UnityCoder.Editor.Integration",
+    "references": [
+        "com.unity.modules.jsonserialize",
+        "com.unity.test-framework"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
