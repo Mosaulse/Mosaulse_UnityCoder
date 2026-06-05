@@ -1,8 +1,8 @@
 {
     "name": "com.unitycoder.editors",
     "displayName": "UnityCoder Editor Integration",
-    "description": "为 Unity 提供 Visual Studio Code 及其变体（Cursor、Antigravity、Trae、Trae CN、Kiro、Qoder、Lingma、Windsurf）的代码编辑器集成支持。添加对生成 csproj 文件以实现智能提示、自动发现安装等功能。",
-    "version": "1.0.3",
+    "description": "为 Unity 提供 Visual Studio Code 及其变体（Cursor、Antigravity、Trae、Trae CN、Kiro、Qoder、Qoder CN、Lingma、Devin）的代码编辑器集成支持。添加对生成 csproj 文件以实现智能提示、自动发现安装等功能。",
+    "version": "1.0.4",
     "unity": "2021.3",
     "dependencies": {
         "com.unity.test-framework": "1.1.33"
@@ -21,11 +21,11 @@
         "kiro",
         "qoder",
         "lingma",
-        "windsurf",
+        "Devin",
         "code editor"
     ],
     "_upm": {
-        "changelog": "Initial release:\n\n- Support for Visual Studio Code and popular variants (Cursor, Antigravity, Trae, Trae CN, Kiro, Qoder, Lingma, Windsurf)\n- Automatic discovery of editor installations\n- Project file generation (.csproj and .sln)\n- Manual path specification with automatic version detection\n- Excludes Visual Studio auto-discovery"
+        "changelog": "Version 1.0.4:\n\n- Updated README.md to sync version to 1.0.4\n- Updated EDITOR_VARIANT_REGISTRY.md documentation\n- Updated package.json version and metadata\n- Updated CHANGELOG.md with version history\n- Optimized editor variant registration configuration\n\nVersion 1.0.3:\n\n- Commented out all log output statements to reduce console noise\n- Optimized editor integration experience for cleaner development environment\n- Preserved log code for quick recovery when debugging is needed\n\nVersion 1.0.2:\n\n- Added VSCodeVariantRegistry editor variant registration management system\n- Added VSCodeVariantConfig editor configuration class\n- Implemented modular editor variant registration mechanism\n- Support for dynamic registration of new editor variants\n- Intelligent path detection and editor type recognition\n- Optimized editor discovery algorithm for improved accuracy\n\nVersion 1.0.0:\n\n- Support for Visual Studio Code and popular variants (Cursor, Antigravity, Trae, Trae CN, Kiro, Qoder, Lingma, Devin)\n- Automatic discovery of editor installations\n- Project file generation (.csproj and .sln)\n- Manual path specification with automatic version detection\n- Excludes Visual Studio auto-discovery"
     },
     "upmCi": {
         "footprint": "unitycoder_editor_integration_v1.0.0"

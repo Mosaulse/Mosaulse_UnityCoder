@@ -127,6 +127,15 @@ namespace UnityCoder.Editor.Integration
                 ExecutablePattern = @"qoder.*\.exe$"
             });
 
+            // 注册Qoder CN
+            RegisterVariant(new VSCodeVariantConfig
+            {
+                Id = "qodercn",
+                DisplayName = "qoder cn",
+                PathKeywords = new[] { "qoder" },
+                ExecutablePattern = @"qoder.*\.exe$"
+            });
+
             // 注册Lingma
             RegisterVariant(new VSCodeVariantConfig
             {
@@ -136,13 +145,13 @@ namespace UnityCoder.Editor.Integration
                 ExecutablePattern = @"lingma.*\.exe$"
             });
 
-            // 注册Windsurf
+            // 注册Devin
             RegisterVariant(new VSCodeVariantConfig
             {
-                Id = "windsurf",
-                DisplayName = "Windsurf",
-                PathKeywords = new[] { "windsurf" },
-                ExecutablePattern = @"windsurf.*\.exe$",
+                Id = "Devin",
+                DisplayName = "Devin",
+                PathKeywords = new[] { "Devin" },
+                ExecutablePattern = @"Devin.*\.exe$",
             });
 
             _isInitialized = true;

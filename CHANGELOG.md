@@ -1,5 +1,20 @@
 # 更新日志
 
+## [1.0.4] - 2026-06-06
+
+### 文档更新
+- 📝 更新 README.md，同步版本号至 1.0.4
+- 📝 更新 EDITOR_VARIANT_REGISTRY.md，完善编辑器变体注册系统文档
+- 📝 更新 package.json，更新版本号和包元数据
+- 📝 更新 CHANGELOG.md，记录版本历史
+
+### 配置优化
+- 🎯 优化编辑器变体注册配置
+- 📦 更新包依赖和元数据信息
+
+### 版本信息
+- 版本号更新至 1.0.4
+
 ## [1.0.3] - 2026-02-19
 
 ### 优化改进
@@ -46,7 +61,7 @@
 - Kiro
 - Qoder
 - Lingma
-- Windsurf
+- Devin
 
 ### 技术改进
 - 实现可扩展的编辑器配置系统
@@ -84,7 +99,7 @@
 
 ### 新增功能
 - 🎉 初始版本发布
-- 支持Visual Studio Code及主流变体编辑器（Cursor、Antigravity、Trae、Trae CN、Kiro、Qoder、Lingma、Windsurf）
+- 支持Visual Studio Code及主流变体编辑器（Cursor、Antigravity、Trae、Trae CN、Kiro、Qoder、Lingma、Devin）
 - 自动发现编辑器安装位置
 - 手动指定编辑器路径功能
 - 自动生成.csproj和.sln项目文件

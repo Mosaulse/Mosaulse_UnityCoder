@@ -24,10 +24,10 @@ VSCodeVariantRegistry.RegisterVariant(new VSCodeVariantConfig
 ```csharp
 VSCodeVariantRegistry.RegisterVariant(new VSCodeVariantConfig
 {
-    Id = "windsurf",                           // 唯一标识符
-    DisplayName = "Windsurf",                  // 显示名称
-    PathKeywords = new[] { "windsurf", "surf" }, // 路径匹配关键字
-    ExecutablePattern = @"windsurf.*\.exe$",   // 可执行文件模式
+    Id = "Devin",                           // 唯一标识符
+    DisplayName = "Devin",                  // 显示名称
+    PathKeywords = new[] { "Devin", "surf" }, // 路径匹配关键字
+    ExecutablePattern = @"Devin.*\.exe$",   // 可执行文件模式
     PrereleaseKeywords = new[] { "insider", "preview", "beta" }, // 预发布版本关键字
     CustomVersionDetector = (versionString) => // 自定义版本检测（可选）
     {
