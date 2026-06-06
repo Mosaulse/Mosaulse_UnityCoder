@@ -131,8 +131,8 @@ namespace UnityCoder.Editor.Integration
             RegisterVariant(new VSCodeVariantConfig
             {
                 Id = "qodercn",
-                DisplayName = "qoder cn",
-                PathKeywords = new[] { "qoder" },
+                DisplayName = "Qoder CN",
+                PathKeywords = new[] { "qoder cn" },
                 ExecutablePattern = @"qoder.*\.exe$"
             });
 
