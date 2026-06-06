@@ -105,7 +105,7 @@ namespace UnityCoder.Editor.Integration
             {
                 Id = "traecn",
                 DisplayName = "Trae CN",
-                PathKeywords = new[] { "trae cn" },
+                PathKeywords = new[] { "trae cn", "traecn" },
                 ExecutablePattern = @"trae.*\.exe$"
             });
 
@@ -132,7 +132,7 @@ namespace UnityCoder.Editor.Integration
             {
                 Id = "qodercn",
                 DisplayName = "Qoder CN",
-                PathKeywords = new[] { "qoder cn" },
+                PathKeywords = new[] { "qoder cn", "qodercn" },
                 ExecutablePattern = @"qoder.*\.exe$"
             });
 
